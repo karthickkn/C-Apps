@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace InvestQ
+namespace Learn2Prog
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace InvestQ
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InvestQ_Invest());
+            Application.Run(new UserValidation());
         }
     }
 }
